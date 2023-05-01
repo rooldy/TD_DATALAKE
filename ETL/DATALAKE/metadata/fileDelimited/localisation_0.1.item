@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_9ZzAcObFEe24rpeVp5Ds0w" name="localisation" dataPackage="_9ZzAcebFEe24rpeVp5Ds0w" Server="Localhost 127.0.0.1" FilePath="C:/TD_DATALAKE/TD_DATALAKE/DATALAKE/2_CURATED_ZONE/LINKEDIN/EMP/Data_lOCAL_EMP.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_9ZzAcebFEe24rpeVp5Ds0w" name="default" dataManager="_9ZzAcObFEe24rpeVp5Ds0w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_9ZzAcubFEe24rpeVp5Ds0w" id="_q64OEObFEe24rpeVp5Ds0w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9ZzAc-bFEe24rpeVp5Ds0w" label="id_localisation" length="240" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9ZzAdObFEe24rpeVp5Ds0w" label="Ville" length="250" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9ZzAdebFEe24rpeVp5Ds0w" label="Pays" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_9rpE0OYJEe2JnKHC2C4rzQ" name="avis2" id="_9rn2sOYJEe2JnKHC2C4rzQ" dataPackage="_9rpE0eYJEe2JnKHC2C4rzQ" Server="Localhost 127.0.0.1" FilePath="C:/TD_DATALAKE/TD_DATALAKE/DATALAKE/2_CURATED_ZONE/GLASSDOOR/AVI/Data_Note.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_9rpE0eYJEe2JnKHC2C4rzQ" name="default" dataManager="_9rpE0OYJEe2JnKHC2C4rzQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_9rpE0uYJEe2JnKHC2C4rzQ" id="_f336EOYJEe2JnKHC2C4rzQ" label="note_avis">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9rpE0-YJEe2JnKHC2C4rzQ" label="id_Note" length="2" talendType="id_Integer" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9rpE1OYJEe2JnKHC2C4rzQ" label="Nom_Fichier" length="41" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9rpE1eYJEe2JnKHC2C4rzQ" label="Titre_Avis" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9rpE1uYJEe2JnKHC2C4rzQ" label="Equilibre_travail_vie_privee" length="61" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9rpE1-YJEe2JnKHC2C4rzQ" label="Culture_et_valeurs" length="3" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9rpE2OYJEe2JnKHC2C4rzQ" label="Opportunites_de_carriere" length="3" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9rpE2eYJEe2JnKHC2C4rzQ" label="emuneration_et_avantages" length="3" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9rpE2uYJEe2JnKHC2C4rzQ" label="Equipe_dirigeante" length="3" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9rpE2-YJEe2JnKHC2C4rzQ" label="Note_moyenne" length="3" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9rpE3OYJEe2JnKHC2C4rzQ" label="Column9" length="3" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

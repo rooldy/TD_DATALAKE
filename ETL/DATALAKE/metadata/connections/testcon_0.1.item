@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="__WgYAOa1Ee2JnKHC2C4rzQ" name="testcon" id="_t1OSkOa1Ee2JnKHC2C4rzQ" label="testcon" dataPackage="__YDQIOa1Ee2JnKHC2C4rzQ" DatabaseType="MySQL" DriverClass="org.mariadb.jdbc.Driver" URL="jdbc:mariadb://localhost:3306/bdd_gestiondonnee?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MARIADB" Port="3306" Username="root" Password="enc:system.encryption.key.v1:hVQAEnGoiUVfTJ19fTsjfNr/A0dhRu3tyaIiCU9e6JzUKvlZIZcWvTed" ServerName="localhost" DatasourceName="" FileFieldName="" SID="bdd_gestiondonnee" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="__WoT0Oa1Ee2JnKHC2C4rzQ" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="__XeoYOa1Ee2JnKHC2C4rzQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="__Xi50Oa1Ee2JnKHC2C4rzQ" tag="Status" value=""/>
+    <taggedValue xmi:id="__Xi50ea1Ee2JnKHC2C4rzQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="__Xi50ua1Ee2JnKHC2C4rzQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="__Xi50-a1Ee2JnKHC2C4rzQ" tag="Description" value=""/>
+    <taggedValue xmi:id="__Xi51Oa1Ee2JnKHC2C4rzQ" tag="Author" value=""/>
+    <taggedValue xmi:id="__Xi51ea1Ee2JnKHC2C4rzQ" tag="otherParameter"/>
+    <taggedValue xmi:id="__XvuIOa1Ee2JnKHC2C4rzQ" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="__XvuIea1Ee2JnKHC2C4rzQ" tag="DB ProductVersion" value="8.0.32"/>
+    <taggedValue xmi:id="__XvuIua1Ee2JnKHC2C4rzQ" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="__WoT0ea1Ee2JnKHC2C4rzQ" key="CONN_PARA_KEY_USERNAME" value="root"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="__YDQIOa1Ee2JnKHC2C4rzQ" name="bdd_gestiondonnee" dataManager="__WgYAOa1Ee2JnKHC2C4rzQ"/>
+</xmi:XMI>

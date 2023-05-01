@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_bWOT0OYJEe2JnKHC2C4rzQ" name="avis" dataPackage="_bWSlQOYJEe2JnKHC2C4rzQ" Server="Localhost 127.0.0.1" FilePath="C:/TD_DATALAKE/TD_DATALAKE/DATALAKE/2_CURATED_ZONE/GLASSDOOR/AVI/Donnees_Avi.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_bWSlQOYJEe2JnKHC2C4rzQ" name="default" dataManager="_bWOT0OYJEe2JnKHC2C4rzQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_bWSlQeYJEe2JnKHC2C4rzQ" id="_izRJoOYIEe2JnKHC2C4rzQ" label="donneesavis">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bWSlQuYJEe2JnKHC2C4rzQ" label="id_avis" length="2" talendType="id_Integer" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bWSlQ-YJEe2JnKHC2C4rzQ" label="Nom_Fichier" length="41" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bWSlROYJEe2JnKHC2C4rzQ" label="Nom_Entreprise" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bWSlReYJEe2JnKHC2C4rzQ" label="Titre_Avis" length="61" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bWSlRuYJEe2JnKHC2C4rzQ" label="Date_Avis" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bWSlR-YJEe2JnKHC2C4rzQ" label="Auteur_Avis" length="52" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bWSlSOYJEe2JnKHC2C4rzQ" label="Loc_Avis" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bWSlSeYJEe2JnKHC2C4rzQ" label="Inconvenients" length="337" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bWSlSuYJEe2JnKHC2C4rzQ" label="Avantages" length="250" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
